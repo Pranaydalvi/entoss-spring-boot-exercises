@@ -44,7 +44,7 @@ cd entoss-spring-boot-exercises
 Update `application.properties` with your MySQL credentials:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/userdb
+spring.datasource.url=jdbc:mysql://localhost:3306/entoss
 spring.datasource.username=root
 spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
@@ -98,10 +98,6 @@ Include the JWT token in the **Authorization** header:
 ```sh
 Authorization: Bearer <JWT_TOKEN>
 ```
-
-## License
-
-This project is licensed under the **MIT License**.
 
 ## Author
 
